@@ -36,7 +36,7 @@ public class Ejecutor {
             arrSistema[i].establecerSistemaOperativo("Androi");
             arrSistema[i].establecerTPantalla(52.3);
             arrSistema[i].establecerCostoInicial(235.5);
-            arrSistema[i].establecerIvaPorcentaje(12);
+            arrSistema[i].establecerIvaPorcentaje(235.5);
             arrSistema[i].establecerIvaCostoInicial(15.3);
             arrSistema[i].establecerDirecciónMac("00:1B:44:11:3A:B7");
             arrSistema[i].establecerImen("010928 00 389023 3");

@@ -11,7 +11,7 @@ package paquete2;
 public class AdminitradorColegios {
 
     private String nombre;
-    private String tipoinstitucion;
+    private String tipoInstitucion;
     private int numeroAlumnos;
     private int numeroDocentes;
     private int numeroSedes;
@@ -26,12 +26,12 @@ public class AdminitradorColegios {
         return nombre;
     }
     
-    public void establecerTipoinstitucion(String c){
-        tipoinstitucion = c;
+    public void establecerTipoInstitucion(String c){
+        tipoInstitucion = c;
     }
     
-    public String obtenerTipoinstitucion(){
-        return tipoinstitucion;
+    public String obtenerTipoInstitucion(){
+        return tipoInstitucion;
     }
     
     public void establecerNumeroAlumnos(int c){

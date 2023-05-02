@@ -34,9 +34,9 @@ public class Ejecutor {
         
         for(int i = 0; i < 2; i++) {
             arrColegio[i].establecerNombre("Sanmartín");
-            arrColegio[i].establecerTipoinstitucion("Fiscomicional");
-            arrColegio[i].establecerNumeroAlumnos(23);
-            arrColegio[i].establecerNumeroDocentes(45);
+            arrColegio[i].establecerTipoInstitucion("Fiscomicional");
+            arrColegio[i].establecerNumeroAlumnos(200);
+            arrColegio[i].establecerNumeroDocentes(21);
             arrColegio[i].establecerNumeroSedes(56);
             arrColegio[i].establecerGastosEstudiante(23.2);
             
@@ -58,7 +58,7 @@ public class Ejecutor {
                     + "Gastos por estudiante:\t%.2f\n"
                     + "Presupuesto:\t%.2f\n\n",
                     arrColegio[i].obtenerNombre(),
-                    arrColegio[i].obtenerTipoinstitucion(),
+                    arrColegio[i].obtenerTipoInstitucion(),
                     arrColegio[i].obtenerNumeroAlumnos(),
                     arrColegio[i].obtenerNumeroDocentes(),
                     arrColegio[i].obtenerNumeroSedes(),
